@@ -1,0 +1,30 @@
+name: Semgrep Security Scan
+
+on:
+  pull_request:
+    branches:
+      - main
+      - dev
+
+jobs:
+  semgrep:
+    name: Semgrep Scan
+    runs-on: ubuntu-latest
+    container:
+      image: semgrep/semgrep
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Run Semgrep
+        run: semgrep ci --config=auto
+        env:
+          # Optional: add SEMGREP_APP_TOKEN from semgrep.dev for dashboard visibility
+          # SEMGREP_APP_TOKEN: ${{ secrets.SEMGREP_APP_TOKEN }}
+          SEMGREP_RULES: >-
+            p/default
+            p/javascript
+            p/typescript
+            p/react
+            p/secrets
