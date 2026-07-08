@@ -45,6 +45,8 @@
 
 **Done when:** A test PR shows green CI + Semgrep + Dependabot all active; Linear board exists with 7 phase epics.
 
+✅ **COMPLETED — July 8, 2026.** CI (typecheck + build), Semgrep security scan, and Dependabot all green on first real PR. Actions pinned to full commit SHAs per Semgrep findings. `LottoGuard-MASTER.md` added to repo root. Linear board deferred — will revisit before second customer onboarding.
+
 ---
 
 ## PHASE 1 — FOUNDATION (Weeks 1–3, Build Days 3–17, Jul 10 – Jul 30, 2026)
