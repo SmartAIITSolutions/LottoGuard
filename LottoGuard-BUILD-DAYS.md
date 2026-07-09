@@ -65,6 +65,8 @@
 
 **Done when:** Migration applies cleanly on a fresh Supabase instance; an owner row can have 2+ store rows attached.
 
+✅ **COMPLETED — July 8, 2026.** Migration 001 applied successfully. Tables `organizations`, `owners`, `stores` created with RLS enabled. Multi-tenant hierarchy (Agency → Owner → Stores) confirmed working. Full user-facing RLS policies deferred to Day 5 per plan.
+
 **Build Day 4 — Monday, July 13, 2026 — Phase 1, Week 1, Day 2**
 **Build:**
 - Migration 002: `employees` table (role enum, store_id FK, PIN hash field for device login)
