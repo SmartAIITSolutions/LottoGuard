@@ -77,6 +77,8 @@
 
 **Done when:** A test Owner account can be created via Supabase Auth; a test Employee row can be created with a hashed PIN.
 
+✅ **COMPLETED — July 8, 2026.** Migration 002 applied. `employees` table created with dual auth model (Supabase Auth for Owner/Manager, PIN hash for Cashier shared-tablet flow). TOTP 2FA enabled in Supabase Auth. RLS enabled, full user policies deferred to Day 5.
+
 **Build Day 5 — Tuesday, July 14, 2026 — Phase 1, Week 1, Day 3**
 **Build:**
 - Write RLS policies for `stores`, `owners`, `employees` implementing the Access & Permissions Matrix (Build Execution Plan, Section 2): Agency sees all, Owner sees own stores only, Manager sees own store only, Cashier sees own shift only
