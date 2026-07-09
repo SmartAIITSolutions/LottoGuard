@@ -12,7 +12,7 @@
 | Item | Status |
 |------|--------|
 | Current phase | Phase 0 — Ops Setup |
-| Current build day | Day 3 complete — Day 4 next |
+| Current build day | Day 4 complete — Day 5 next |
 | `npm run dev` passing | ✅ |
 | CI (typecheck + build) | ✅ |
 | Semgrep scan | ✅ |
