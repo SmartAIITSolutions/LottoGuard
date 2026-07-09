@@ -12,7 +12,7 @@
 | Item | Status |
 |------|--------|
 | Current phase | Phase 0 — Ops Setup |
-| Current build day | Day 2 complete — Day 3 next (Phase 1 starts) |
+| Current build day | Day 3 complete — Day 4 next |
 | `npm run dev` passing | ✅ |
 | CI (typecheck + build) | ✅ |
 | Semgrep scan | ✅ |
@@ -29,7 +29,7 @@
 | Phase | Name | Days | Status |
 |-------|------|------|--------|
 | 0 | Ops Setup | 1–2 | ✅ Complete |
-| 1 | Foundation | 3–17 | 🔲 Not started |
+| 1 | Foundation | 3–17 | 🔄 In progress (Day 3 complete) |
 | 2 | Scan Engine + PJR Bridge | 18–27 | 🔲 Not started |
 | 3 | Spot-Check System | 28–37 | 🔲 Not started |
 | 4 | Tally & Reconciliation | 38–47 | 🔲 Not started |
